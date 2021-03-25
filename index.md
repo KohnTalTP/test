@@ -1,3 +1,28 @@
+<!-- In the `<head>`
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="light.css" media="(prefers-color-scheme: light)">
+  <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
+  <script type="module" src="https://googlechromelabs.github.io/dark-mode-toggle/src/dark-mode-toggle.mjs"></script>
+-->
+<main>
+  <h1>Hi there</h1>
+  <img src="https://googlechromelabs.github.io/dark-mode-toggle/demo/cat.jpg"
+       alt="Sitting cat in front of a tree" width="320" height="195"
+       intrinsicsize="640x390">
+  <p>Check out the dark mode toggle in the upper right corner!</p>
+</main>
+<aside>
+  <dark-mode-toggle
+      id="dark-mode-toggle-1"
+      legend="Theme Switcher"
+      appearance="switch"
+      dark="Dark"
+      light="Light"
+      remember="Remember this"
+  ></dark-mode-toggle>
+</aside>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/KohnTalTP/hello-world/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
